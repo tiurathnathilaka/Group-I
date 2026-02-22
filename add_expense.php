@@ -22,9 +22,12 @@ if(isset($_POST['save'])){
     exit();
 }
 ?>
-
-<link rel="stylesheet" href="add_expense.css">
-
+<html>
+<head> 
+    <title>Add Expense</title>
+    <link rel="stylesheet" href="add_expense.css">
+</head>
+<body>
 <div class="container">
     <form method="POST">
         <h1>Add Expense</h1>
@@ -51,3 +54,5 @@ if(isset($_POST['save'])){
         <button type="button" onclick="window.location='dashboard.php'">Cancel</button>
     </form>
 </div>
+</body>
+</html>
